@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logop.jpeg"> 
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/login_register.css">
+    <link rel="stylesheet" href="css/validar.css">
+    <script src="js/validar.js"></script>
+    <title>TattooVision</title>
+</head>
+<body> 
+    <!-- <?php
+        include('registrar.php');
+    ?> -->
+    <form class="form_register" method="post">
+        <img class="log2" src="img/fondo2.2.png">
+        <img class="loga" src="img/logop.jpeg">
+        <div class="row cont"> 
+            <div class="input-field col s12">
+                <input type="text" id="input_text" name="nombres" class="validate">
+                <label for="input_text">Nombres</label>
+            </div>
+            <div class="input-field col s12">
+                <input type="text" id="input_text" name="apellidos" class="validate">
+                <label for="input_text">Apellidos</label>
+            </div>
+            <div class="input-field col s12">
+                <input type="number" id="input_text" name="telefono" class="validate">
+                <label for="input_text">Telefono</label>
+            </div>
+            <div class="input-field col s12">
+                <input type="email" id="email" name="correo" class="validate">
+                <label for="correo">Correo Electronico</label>
+                <span class="helper-text" data-error="Incorrecto" data-success="right">Helper text</span>
+            </div>
+            <div class="Password">
+                <div class="input-field col s12">
+                    <input type="password" autocomplete="off" id="new_contra" name="clave" class="validate">
+                    <label for="clave">Nueva Contraseña</label>
+                </div>
+                <br><br>
+                <p class="invalid">Minimo 1 letra minuscula</p>
+                <p class="invalid">Minimo 1 letra mayuscula</p>
+                <p class="invalid">Minimo 1 numero</p>
+                <p class="invalid">Minimo 8 caracteres</p>
+            </div>
+            <br>
+        </div>
+        <div class="terminos">
+            <p>
+                <label>
+                <input type="checkbox" checked="checked">
+                <span>Estoy de acuerdo con los <a href="#"><b>Terminos y Condiciones</b></span>
+                </label>
+            </p>
+        </div>
+        <center><button class="btn waves-effect waves-light form__submit1" type="submit" name="registrarse" id="registrarse">Registarse</button></center>
+        
+        <p class="login1"><a href=""></a>¿Ya tienes Cuenta?<a href="index.html"><i>Iniciar Sesión</i></a></p>
+        <br>
+    </form>
+
+
+     <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/sweetalert2.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

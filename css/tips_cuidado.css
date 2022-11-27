@@ -1,0 +1,119 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+}
+
+#cuidados{
+    background-color: #fff;
+    height: 120rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo2{
+    color: #000;
+    font-size: 35px;
+    padding: 30px 30px;
+    
+}
+
+.cuidados2 .txt1{
+    float: right;
+    margin: -90px 272px;
+    font-size: 18px;
+    color: #000;
+}
+
+.cuidados2 .tips{
+    color: #000;
+    font-size: 22px;
+    margin: 30px;
+}
+
+.txt{
+    margin: -15px 0 20px 30px;
+    font-size: 17px;
+    color: #000;
+}
+
+.cuidados2 hr{
+    width: 28rem;
+    height: .1rem;
+    background-color: #000;
+    margin-left: 30px;
+}
+
+.cuidados2 .boton{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 1.5rem 12rem;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.image{
+    width: 32rem;
+    height: 39rem;
+    float: right;
+    margin: -51rem 8rem;
+    border-radius: 16px;
+    
+}
+/*------------------------------------------------*/
+
+
+.cuidados1{
+    float: right;
+    margin-right: 40px;
+}
+
+.cuidados1 .titulo1{
+    margin: 30px;
+    font-size: 35px;
+}
+
+.contenedor2 .txt2{
+    position: absolute;
+    margin: 2.1rem -22rem;
+    font-size: 18px;
+    text-align: right;
+}
+
+.cuidados1 .tips{
+    margin: 30px;
+    font-size: 22px;
+}
+
+.cuidados1 .txt{
+    margin: -15px 0 20px 30px;
+    font-size: 18px;
+}
+
+.cuidados1 hr{
+    width: 28rem;
+    height: .1rem;
+    background-color: #000;
+    margin-left: 30px;
+}
+
+.cuidados1 .boton{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 1.5rem 12rem;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.contenedor2 .image{
+    position: absolute;
+    width: 32rem;
+    height: 36rem;
+    margin: 9rem -46%;
+    border-radius: 16px; 
+} 
